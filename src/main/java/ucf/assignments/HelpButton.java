@@ -30,7 +30,7 @@ public class HelpButton implements Initializable{
         HelpText.setText(message);
     }
 
-    private String helpPageContent() {
+    public String helpPageContent() {
 
         String message = " Welcome user!. To start using this interface, please follow the following guidelines\n" + "This Application will automatically load all the previously saved items from the external storage during startup"+
                 "1.In order to start adding up the items into your ToDo list app, start by filling up the required fields as the name,description and due date\n"+

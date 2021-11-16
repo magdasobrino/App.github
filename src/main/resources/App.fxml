@@ -20,10 +20,10 @@
     <Button fx:id="Add" layoutX="386.0" layoutY="112.0" mnemonicParsing="false" onAction="#Add" prefHeight="20.0" prefWidth="46.0" text="Add" />
     <TreeTableView layoutX="14.0" layoutY="71.0" prefHeight="278.0" prefWidth="354.0">
         <columns>
-            <TreeTableColumn prefWidth="76.33331203460693" text=" Title" />
-            <TreeTableColumn prefWidth="89.66668701171875" text="Due Date " />
-            <TreeTableColumn prefWidth="96.33331298828125" text="Description" />
-            <TreeTableColumn prefWidth="82.66668701171875" text="Status" />
+            <TreeTableColumn fx:id= "Item" prefWidth="76.33331203460693" text=" Title" />
+            <TreeTableColumn fx:id= "DueDate" prefWidth="89.66668701171875" text="Due Date " />
+            <TreeTableColumn fx:id= "Description" prefWidth="96.33331298828125" text="Description" />
+            <TreeTableColumn fx:id= "CompleteStatus" prefWidth="82.66668701171875" text="Status" />
         </columns>
     </TreeTableView>
     <ScrollBar layoutX="361.0" layoutY="71.0" orientation="VERTICAL" prefHeight="277.0" prefWidth="14.0" />

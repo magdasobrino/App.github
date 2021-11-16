@@ -39,6 +39,7 @@ public class ControllerTest {
         //update details
 
     }
+
     @Test
     public void SaveOneListClicked() {
         // create a file
@@ -67,13 +68,14 @@ public class ControllerTest {
     public void OpenAllList() {
         // Show all list
     }
+
     @Test
-    public void CheckStatus(){
+    public void CheckStatus() {
         // display list status, incomplete or complete
     }
 
     @Test
-    public void Display(){
+    public void Display() {
         //if list is complete or incomplete
         //compare displayed items//
         //compare all of the items displayed

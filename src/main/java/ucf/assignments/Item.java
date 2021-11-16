@@ -32,7 +32,7 @@ public class Item implements Serializable {
     }
     // if incorrect prompt user to reenter the date on date picker//
 
-    public LocalDate getDueDate() {
+    public String getDueDate() {
         return DueDate;
     }
 

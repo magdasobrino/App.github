@@ -15,7 +15,18 @@ public class ItemTest {
     String newdate = "2021-12-09";
     LocalDate localDate= LocalDate.parse(date);
     LocalDate newlocalDate= LocalDate.parse(newdate);
-    ObservableList x= new ObservableListBase(localDate, "dog barks", false);
+    ObservableList= new Object ObservableListBase(localDate, "dog barks", false) {
+
+        @Override
+        public int size() {
+            return 0;
+        }
+
+        @Override
+        public Object get(int index) {
+            return null;
+        }
+    };
 
     @Test
     public void getItem() {
